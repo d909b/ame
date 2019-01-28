@@ -4,7 +4,7 @@
 
 Attentive Mixtures of Experts (AMEs) are a machine-learning method for jointly learning to produce accurate predictions and estimates of feature importance for individual decisions in a single end-to-end trained neural network model. This repository provides a reference implementation of AMEs and the Granger-causal objective using the Keras and TensorFlow frameworks. You can find the manuscript at http://arxiv.org/abs/1802.02195.
 
-Author(s): Patrick Schwab, ETH Zurich <patrick.schwab@hest.ethz.ch>, Djordje Miladinovic, ETH Zurich <djordje.miladinovic@inf.ethz.ch> and Walter Karlen <walter.karlen@hest.ethz.ch>
+Author(s): Patrick Schwab, ETH Zurich <patrick.schwab@hest.ethz.ch>, Djordje Miladinovic, ETH Zurich <djordje.miladinovic@inf.ethz.ch> and Walter Karlen, ETH Zurich <walter.karlen@hest.ethz.ch>
 
 License: MIT, see LICENSE.txt
 
@@ -21,7 +21,7 @@ If you reference or use our methodology, code or results in your work, please co
 
 #### Installation
 
-- You can install the package and its dependencies using `pip install `https://github.com/`
+- You can install the package and its dependencies using `pip install git+https://github.com/d909b/ame`
 - In principle, AMEs can be used with any type of input data (tabular, image, time series, ...). However, the architectures of the experts within the AME have a considerable effect on both predictive and importance estimation accuracy. It is therefore advisable to use optimised expert architectures for different types of input data.
     - We provide two optimised implementations for tabular data and image data in this repository (see examples below).
 
