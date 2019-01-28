@@ -21,7 +21,7 @@ If you reference or use our methodology, code or results in your work, please co
 
 #### Installation
 
-- You can install the package and its dependencies using `pip install git+https://github.com/d909b/ame`
+- You can install the package and its dependencies using `pip install .` in the project's root directory.
 - In principle, AMEs can be used with any type of input data (tabular, image, time series, ...). However, the architectures of the experts within the AME have a considerable effect on both predictive and importance estimation accuracy. It is therefore advisable to use optimised expert architectures for different types of input data.
     - We provide two optimised implementations for tabular data and image data in this repository (see examples below).
 
