@@ -28,7 +28,7 @@ def categorical_loss(x1, x2):
 
 
 def absolute_error_loss(x1, x2):
-    return x1 - x2
+    return K.abs(x1 - x2)
 
 
 def calculate_delta_errors(y_true, attention_weights, auxiliary_outputs, all_but_one_auxiliary_outputs,
