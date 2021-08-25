@@ -28,7 +28,7 @@ setup(
     long_description=open('README.txt').read(),
     install_requires=[
         "Keras >= 1.2.2",
-        "tensorflow == 1.4.0",
+        "tensorflow == 2.5.1",
         "matplotlib >= 1.3.1",
         "pandas >= 0.18.0",
         "h5py >= 2.6.0",
